@@ -24,7 +24,7 @@ def standard_trainer(
     loss_function="PoissonLoss",
     stop_function="get_correlations",
     loss_accum_batch_n=None,
-    device="cuda",
+    device="cuda:3",
     verbose=True,
     interval=1,
     patience=5,

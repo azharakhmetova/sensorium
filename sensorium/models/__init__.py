@@ -1,1 +1,2 @@
 from .models import stacked_core_full_gauss_readout
+from .models import ecker_core_full_gauss_readout
